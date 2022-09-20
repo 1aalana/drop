@@ -1,0 +1,71 @@
+.container-produto {
+    width: 210px;
+    height:450px ;
+    border: solid 1px #d4d4d4;
+   
+}
+
+.destaque-promocao {
+    background-color: #076607;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;  
+    margin-top: 10px;
+       
+}
+
+.container-img-produto{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+
+}
+
+.descricao-produto{
+   padding: 10px;
+}
+
+.nome-camisa{
+    font-size: .9em;
+    color: #747474;
+}
+
+.preco-atual{
+    font-size: 1.2em;
+    color: #4c05a8;
+    font-weight: bold;
+}
+
+.preco-antigo{
+    font-size: .6em;
+    color: #747474;
+    text-decoration: line-through
+}
+
+.parcelas{
+    font-size: .8em;
+    color: #747474;
+}
+
+.frete-gratis{
+    font-size: 1em;
+    color: #0bb30b;
+}
+/*Media max-width-----------------------------*/
+
+@media (max-width: 540px) {
+.container-produto {
+        width: 360px;
+    }
+
+    .container-img-produto {
+        width: 200px;
+        height: 260px;
+        margin: auto;
+
+    }
+}
+
+
+
+

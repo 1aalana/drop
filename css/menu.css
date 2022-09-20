@@ -1,0 +1,209 @@
+.container-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 85px;
+    background-color: #1d1d1d;
+    color: azure;
+}
+
+
+@media (max-width: 960px) {
+    .container-search {
+        flex-direction: column;
+        height: 250px;
+        text-align: center;
+    }
+    .rastreio-ico, .logo {
+    display: none !important;
+    }
+}
+
+.container-search input {
+    width: 750px;
+    height: 45px;
+    border-radius: 50px;
+    text-indent: 25px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.catalogo-img{
+    width: 215px;
+    height: 71px;
+}
+
+#rastreio{
+    display: flex;
+}
+
+#compra-whatsapp{
+    color: #836A2E;
+    letter-spacing: 2px;
+}
+.container-search #rastreio *,
+.container-search #carrinho * {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9em;
+    width: 100%;
+    height: 55px;
+    background-color: #1d1d1d;
+    border-top: solid 1px #3b3b3bee;
+    color: azure;
+    text-transform: uppercase;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 25px;
+}
+
+.menu ul li:hover {
+    transform: scale(1.1);
+    color: gold;
+}
+
+
+
+
+#box-whatsapp {
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90%;
+    float: right;
+    bottom: 100%;
+    z-index: 9999;
+}
+
+.container-whatsapp {
+    color: #fafeff;
+    font-size: 2.1em;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-whatsap-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #03cf03;
+    animation: redes-move 4s infinite;
+}
+
+@keyframes redes-move {
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    text-align: center;
+    
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;    
+}
+
+#btn-mobile {
+    display: none;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 53px;
+        right: 0px;
+        background: #1d1d1d;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+        color: #eee;
+    }
+
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}

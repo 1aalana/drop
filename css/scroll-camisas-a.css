@@ -1,0 +1,260 @@
+.a01 .container-img-produto {
+    background: url(../img/camisa-ajax-amsterdam-frete-23.png) no-repeat center center/cover;
+}
+
+.a01 .container-img-produto:hover {
+    background: url(../img/camisa-ajax-amsterdam-costas-23.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a02 .container-img-produto {
+    background: url(../img/camisa-arsenal-frente-23.png) no-repeat center center/cover;
+}
+
+.a02 .container-img-produto:hover {
+    background: url(../img/camisa-arsenal-costas-23.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a03 .container-img-produto {
+    background: url(../img/camisa-sao-paulo-frente-23.png) no-repeat center center/cover;
+}
+
+.a03 .container-img-produto:hover {
+    background: url(../img/camisa-sao-paulo-costas-23.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a04 .container-img-produto {
+    background: url(../img/camisa-manchester-united-frente-23.png) no-repeat center center/cover;
+}
+
+.a04 .container-img-produto:hover {
+    background: url(../img/camisa-manchester-united-costas-23.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a05 .container-img-produto {
+    background: url(../img/camisa-FC-bayern-munchen-frente-23.png) no-repeat center center/cover;
+}
+
+.a05 .container-img-produto:hover {
+    background: url(../img/camisa-FC-bayern-munchen-costas-23.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a06 .container-img-produto {
+    background: url(../img/camisa-CR-flamengo-2-frente-22.png) no-repeat center center/cover;
+}
+
+.a06 .container-img-produto:hover {
+    background: url(../img/camisa-CR-flamengo-2-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a07 .container-img-produto {
+    background: url(../img/camisa-3-internacional-frente-22.png) no-repeat center center/cover;
+}
+
+.a07 .container-img-produto:hover {
+    background: url(../img/camisa-3-internacional-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a08 .container-img-produto {
+    background: url(../img/camisa-corinthians-frente-22.png) no-repeat center center/cover;
+}
+
+.a08 .container-img-produto:hover {
+    background: url(../img/camisa-corinthians-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+
+.a09 .container-img-produto {
+    background: url(../img/camisa-brasil-oficial-amarela-frente-22.png) no-repeat center center/cover;
+}
+
+.a09 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-oficial-amarela-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+
+.a10 .container-img-produto {
+    background: url(../img/camisa-brasil-oficial-azul-frente-22.png) no-repeat center center/cover;
+}
+
+.a10 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-oficial-azul-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+
+.a11 .container-img-produto {
+    background: url(../img/camisa-brasil-fa-branca-perfil-22.png) no-repeat center center/cover;
+}
+
+.a11 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-fa-branca-frente-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a12 .container-img-produto {
+    background: url(../img/camisa-brasil-treino-azul-frente-21.png) no-repeat center center/cover;
+}
+
+.a12 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-treino-azul-costas-21.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a13 .container-img-produto {
+    background: url(../img/camisa-brasil-fa-amarela-frente-22.png) no-repeat center center/cover;
+}
+
+.a13 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-fa-amarela-perfil-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a14 .container-img-produto {
+    background: url(../img/camisa-brasil-fa-preta-perfil-22.png) no-repeat center center/cover;
+}
+
+.a14 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-fa-preta-frente-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a15 .container-img-produto {
+    background: url(../img/camisa-brasil-fa-amarela-azul-frente-22.png) no-repeat center center/cover;
+}
+
+.a15 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-fa-amarela-azul-meio-perfil-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a16 .container-img-produto {
+    background: url(../img/camisa-brasil-verde-frente-22.png) no-repeat center center/cover;
+}
+
+.a16 .container-img-produto:hover {
+    background: url(../img/camisa-brasil-verde-frente-cortada-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+
+.a17 .container-img-produto {
+    background: url(../img/camisa-argentina-mapa-frente.png) no-repeat center center/cover;
+}
+
+.a17 .container-img-produto:hover {
+    background: url(../img/camisa-argentina-mapa-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a18 .container-img-produto {
+    background: url(../img/camisa-flamengo-III-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a18 .container-img-produto:hover {
+    background: url(../img/camisa-flamengo-III-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a19 .container-img-produto {
+    background: url(../img/camisa-corinthians-azul-frente.png) no-repeat center center/cover;
+}
+
+.a19 .container-img-produto:hover {
+    background: url(../img/camisa-corinthians-azul-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a20 .container-img-produto {
+    background: url(../img/camisa-argentina-roxa-frente.png) no-repeat center center/cover;
+}
+
+.a20 .container-img-produto:hover {
+    background: url(../img/camisa-argentina-roxa-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a21 .container-img-produto {
+    background: url(../img/camisa-flamengo-I-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a21 .container-img-produto:hover {
+    background: url(../img/camisa-flamengo-I-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a22 .container-img-produto {
+    background: url(../img/camisa-ajax-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a22 .container-img-produto:hover {
+    background: url(../img/camisa-ajax-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a23 .container-img-produto {
+    background: url(../img/camisa-flamengo-pre-jogo-estampada-frente.png) no-repeat center center/cover;
+}
+
+.a23 .container-img-produto:hover {
+    background: url(../img/camisa-flamengo-pre-jogo-estampada-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a24 .container-img-produto {
+    background: url(../img/camisa-alemanha-alternativa-vermelha-frente.png) no-repeat center center/cover;
+}
+
+.a24 .container-img-produto:hover {
+    background: url(../img/camisa-alemanha-alternativa-vermelha-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a25 .container-img-produto {
+    background: url(../img/camisa-palmeiras-I-frente-22.png) no-repeat center center/cover;
+}
+
+.a25 .container-img-produto:hover {
+    background: url(../img/camisa-palmeiras-I-costas-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a26 .container-img-produto {
+    background: url(../img/camisa-sao-paulo-III-21-frente.png) no-repeat center center/cover;
+}
+
+.a26 .container-img-produto:hover {
+    background: url(../img/camisa-sao-paulo-III-21-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a27 .container-img-produto {
+    background: url(../img/camisa-cruzeiro-uniforme-1-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a27 .container-img-produto:hover {
+    background: url(../img/camisa-cruzeiro-uniforme-1-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a28 .container-img-produto {
+    background: url(../img/camisa-chelsea-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a28 .container-img-produto:hover {
+    background: url(../img/camisa-chelsea-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a29 .container-img-produto {
+    background: url(../img/camisa-juventus-2-22-23-frente.png) no-repeat center center/cover;
+}
+
+.a29 .container-img-produto:hover {
+    background: url(../img/camisa-juventus-2-22-23-costas.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a30 .container-img-produto {
+    background: url(../img/camisa-verde-frente-22.png) no-repeat center center/cover;
+}
+
+.a30 .container-img-produto:hover {
+    background: url(../img/camisa-verde-frente-cortada-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a31 .container-img-produto {
+    background: url(../img/camisa-verde-frente-22.png) no-repeat center center/cover;
+}
+
+.a31 .container-img-produto:hover {
+    background: url(../img/camisa-verde-frente-cortada-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}
+.a32 .container-img-produto {
+    background: url(../img/camisa-verde-frente-22.png) no-repeat center center/cover;
+}
+
+.a32 .container-img-produto:hover {
+    background: url(../img/camisa-verde-frente-cortada-22.png) no-repeat center center/cover;
+    transition: 0.5s ease-in
+}

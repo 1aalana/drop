@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* scroll-------------------------------- */
+::-webkit-scrollbar-track {
+    background-color: #5a5a5acb;
+}
+
+/*Fundo que corre */
+::-webkit-scrollbar {
+    width: 9px;
+    background: #e6e5e5;
+}
+
+/* Linha que desce */
+::-webkit-scrollbar-thumb {
+    background: #fafeff;
+    border-radius: 15px;
+}
+
+/* scroll--------------------------------*/
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    bottom: 0;
+
+}
+
+.fav {
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+
+
+.itens-container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1117px) {
+.itens-container {
+height: 1284px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+}
+
+@media (max-width: 450px) {
+.itens-container {
+height: 1400px;
+}
+}
+
+.container-informacao{
+    width: 50%;
+    height: 600px;
+}
+@media (max-width: 1117px) {
+    .container-informacao {
+    width: 100%;   
+    
+    }
+}
+
+.container-slide {
+    width: 500px;
+    margin-top: 30px;
+}
+@media (max-width: 635px) {
+    .container-slide {    
+        margin: auto;
+        width: 90%;   
+        height: 121px;    
+}
+}
+
+@media (max-width: 1117px) {
+    .container-slide {    
+        margin: auto;
+        width: 45%;       
+}
+}
+@media (max-width: 712px) {
+    .container-slide {    
+        margin: auto;
+        width: 70%;       
+}
+}
+
+@media (max-width: 450px) {
+    .container-slide {
+        margin: auto;
+        width: 93%;
+        height: 121px;
+    }
+}
+.fundo-img{
+    background-color: #eceff1;
+}
+
+.produtos-relacionados{
+    width: 100%;
+    height: 800px;
+}
+
+.container-informacao-do-produto{
+width: 500px;
+height: 500px;
+}
+
+@media (max-width: 1117px) {
+    .container-informacao-do-produto{
+        width: 100%;
+    
+    }
+}
+
+.nome-da-camisa {
+    font-size: 2em;
+    color: #222;
+    font-weight: bold;
+}
+
+.pesonalizacao {
+    font-size: 2em;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cod-produto{
+    font-size: 0.8em;
+}
+
+.img-ilustrativa{
+    font-size: 0.7em;
+}
+
+.preco-iten{
+    display: flex;
+   font-size: 1.2em;
+   margin: 20px  0px;
+}
+
+.preco--atual{
+    margin-left:5px ;
+    color: #710fb3;
+    font-weight: bold;
+}
+
+.preco--antigo{
+    text-decoration: line-through;
+    color: #918b8b94;    
+}
+
+
+.descricao {
+    width: 100%;
+    border-top: 1px solid #979696a2;
+    border-bottom: 1px solid #979696a2;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.descricao p {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.bordar-titulo {
+    width: 100px;
+    height: 4px;
+    background-color: #ad4aee;
+    border-radius: 25px;
+    margin-block-end: 30px;
+    margin-left: 25px;
+
+}
+
+.compre-aqui{
+    margin-top: 35px;
+    
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #710fb3;
+    color: white;
+    border-radius:50px;
+    transition: background 500ms ease;
+    margin-bottom: 35px;
+    text-align: center;
+    letter-spacing: 8px;
+    margin-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+@media (max-width: 455px) {
+    .btn{
+        width: 90%;
+        font-size: .8em;
+    }
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #710fb3;
+    background-color: rgb(224, 224, 224);
+}
+
+h1{
+    font-size: 1em;
+    color: #222;
+    margin-top:20px;
+    margin-left: 25px;
+}
+
+.produtos-relacionados{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.compartilhar{
+    display: flex;
+    margin: 40px  0px;
+}
+
+.compartilhar ul{
+display: flex;
+}
+
+.compartilhar ul li {
+   padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Galeria----------*/
+* {
+    box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-01 {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    width: 100%
+}
+
+.column img {
+    width: 100%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 5px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    font-size: 1.5em;
+    /*transition: all 0.3s ease;*/
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+    margin: 10px;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
