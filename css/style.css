@@ -59,6 +59,7 @@ a {
 
 body{
     font-family: "poppins", sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .desconto{
